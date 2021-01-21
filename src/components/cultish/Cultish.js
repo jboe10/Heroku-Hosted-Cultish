@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Header';
-import Footer from '../Footer';
+import Footer from '../ContactFooter';
 
 export default function Cultish() {
   return (

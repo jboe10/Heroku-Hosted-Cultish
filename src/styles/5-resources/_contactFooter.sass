@@ -1,21 +1,20 @@
 $white-text: #f8f8f8;
 $black-background: #171717;
 
-.footer-wrap 
+.contact-footer-wrap 
   display: flex;
   flex-direction: column;
   width: 100%;
-.footer 
-  width: 100%;
-  margin-top: auto;
-  margin-bottom: 1em;
-  color: $white-text;
-.footer h3 
-  font-size: 3em;
-  font-weight: 200;
-.footer h4 
-  margin-bottom: 0;
-
+  .contact-footer 
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 1em;
+    color: $white-text;
+    h3 
+      font-size: 3em;
+      font-weight: 200;
+    h4 
+      margin-bottom: 0;
 .location 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -33,7 +32,7 @@ $black-background: #171717;
 
 @media (max-width: "800px") 
 
-  .footer h4 
+  .contact-footer h4 
     margin-bottom: 1em;
   .location 
     grid-template-columns: 1fr;

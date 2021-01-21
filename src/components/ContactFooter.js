@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Footer() {
+export default function ContactFooter() {
     return (
-        <div className="footer-wrap">
-            <div className="footer">
+        <div className="contact-footer-wrap">
+            <div className="contact-footer">
                 {/* <h3>WORK WITH US</h3> */}
                 <h4>DEVELOPMENT, TEAMGEEK</h4>
                 <div className="location">

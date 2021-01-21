@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Header';
-import Footer from '../Footer';
-import './Contact.scss';
+import Footer from '../ContactFooter';
 
 export default class Contact extends Component{
 	constructor(props){
@@ -14,6 +13,7 @@ export default class Contact extends Component{
 	
 	render () {
 		return (
+			<>
 			<div className="contact">
 				<Header/>
 				<div className="contact-body">
@@ -79,8 +79,9 @@ export default class Contact extends Component{
 						</ul>
 					</div>
 				</div>
-				<Footer/>
 			</div>
+			<Footer/>
+		</>
 		)
 	}
 }
