@@ -1,0 +1,62 @@
+.footer
+  .footer-marquee-wrap
+    margin-bottom: 10vw;
+    .footer-marquee
+      color: $white-text;
+      font-family: cormorant;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 180px; 
+      width: 100vw;
+      overflow: hidden;
+      position: relative;
+      line-height: 70%;
+      .footer-right-scroll
+        animation: footer-scrolling-right 45s linear infinite;
+      .footer-left-scroll
+        animation: footer-scrolling-left 45s linear infinite;
+      .footer-marquee-content
+        margin: 0;
+        list-style: none;
+        height: 100%;
+        display: flex;
+        &:hover
+          transition: all .4s ease;
+        li
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: auto;
+          flex-shrink: 0;
+          white-space: nowrap;
+  h3
+    color: $white-text;
+    font-size: 50px;
+    font-family: cormorant;
+    font-weight: 400;
+    text-transform: uppercase;
+  // .footer-info-wrap
+  //   display: flex;
+  //   flex-direction: column;
+  .footer-info 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    color: $white-text;
+    h3 
+      font-size: 3em;
+      font-weight: 200;
+    h4 
+      margin-bottom: 0;
+  .location 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .location-links 
+      display: flex;
+      padding-left: 1.5em;
+      .top-link 
+        display: flex;
+        margin-left: auto;
+        padding-right: 1.5em;
+        a 
+          color: white;

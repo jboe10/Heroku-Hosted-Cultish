@@ -39,19 +39,19 @@ export default class Header extends Component {
 			<div className="header" id="top">
 				<ul className="header-links">
 					<li>
-						<Link to="/" className={(this.props.to === this.state.currentPath)?"active-page":"inactive-page"}>Cultish R</Link>
+						<a href="/" className={(this.props.href === this.state.currentPath)?"active-page":"inactive-page"}>Cultish R</a>
 					</li>
 					<li>  
-						<Link to="/" className={(this.props.to ===  this.state.currentPath)?"active-page":"inactive-page"}>Work</Link>
+						<a href="/work" className={(this.props.href ===  this.state.currentPath)?"active-page":"inactive-page"}>Work</a>
 					</li>
 					<li>
-						<Link to="/" className={(this.props.to ===  this.state.currentPath)?"active-page":"inactive-page"}>Info</Link>
+						<a href="/info" className={(this.props.href ===  this.state.currentPath)?"active-page":"inactive-page"}>Info</a>
 					</li>
 					<li>
-						<Link to="/" className={(this.props.to ===  this.state.currentPath)?"active-page":"inactive-page"}>Store</Link>
+						<a href="/store" className={(this.props.href ===  this.state.currentPath)?"active-page":"inactive-page"}>Store</a>
 					</li>  
 					<li>
-						<Link to="/" className={(this.props.to ===  this.state.currentPath)?"active-page":"inactive-page"}>Contact</Link>
+						<a href="/contact" className={(this.props.to ===  this.state.currentPath)?"active-page":"inactive-page"}>Contact</a>
 					</li>
 				</ul>
 				<div className="header-info">

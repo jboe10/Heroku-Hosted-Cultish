@@ -1,21 +1,20 @@
-$white-text: #f8f8f8;
-$black-background: #171717;
-
 .header
+  height: 5vh;
   background-color: $black-background;
   display: flex;
+  justify-content: center;
   font-family: poppins;
   font-weight: 400;
   font-size: 16px;
   color: $white-text;
-  padding-top: .5em;
   .header-links
     list-style-type: none;
-    display: inline-block;
-    align-items: left;
     padding-left: 1.5em
+    display: flex;
+    align-items: center;
     li
       float: left;
+      display: flex;
       padding: 0 50px 0 0;
       line-height: 17px;
       border-bottom: 1px #171717 solid;

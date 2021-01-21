@@ -6,13 +6,11 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-// import Work from './components/work/Work';
-// import Info from './components/info/Info';
-// import Store from './components/store/Store';
+import Work from './components/work/Work';
+import Info from './components/info/Info';
+import Store from './components/store/Store';
 import Contact from './components/contact/Contact';
-// import Cultish from './components/cultish/Cultish';
-// import Header from './components/Header';
-// import Footer from './components/Footer';
+import Cultish from './components/cultish/Cultish';
 
 import './App.css';
 
@@ -23,7 +21,19 @@ function App() {
       <Router>
           <Switch>
             <Route path="/">
+              <Cultish/>
+            </Route>
+            <Route path="/contact">
               <Contact/>
+            </Route>
+            <Route path="/store">
+              <Store/>
+            </Route>
+            <Route path="/Info">
+              <Info/>
+            </Route>
+            <Route path="/work">
+              <Work/>
             </Route>
           </Switch>
       </Router>

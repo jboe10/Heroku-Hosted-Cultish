@@ -94,6 +94,11 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: cormorant;
+  src: url("./fonts/CormorantInfant-Light.ttf");
+  font-weight: 300;
+}
 
 .App {
   text-align: center;
