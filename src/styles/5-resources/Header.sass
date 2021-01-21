@@ -1,7 +1,7 @@
 $white-text: #f8f8f8;
 $black-background: #171717;
 
-.header {
+.header
   background-color: $black-background;
   display: flex;
   font-family: poppins;
@@ -9,32 +9,22 @@ $black-background: #171717;
   font-size: 16px;
   color: $white-text;
   padding-top: .5em;
-}
-
-.header .header-links {
-  list-style-type: none;
-  display: inline-block;
-  align-items: left;
-  padding-left: 1.5em
-}
-
-.header .header-links li {
-  float: left;
-  padding: 0 50px 0 0;
-  line-height: 17px;
-  border-bottom: 1px #171717 solid;
-}
-
-.header .header-links li a {
-  text-decoration: none;
-  color: $white-text;
-}
-
-.header .header-links li:hover {
-  border-bottom: 1px solid $white-text;
-}
-
-.header-info {
+  .header-links
+    list-style-type: none;
+    display: inline-block;
+    align-items: left;
+    padding-left: 1.5em
+    li
+      float: left;
+      padding: 0 50px 0 0;
+      line-height: 17px;
+      border-bottom: 1px #171717 solid;
+      a
+        text-decoration: none;
+        color: $white-text;
+      &:hover
+        border-bottom: 1px solid $white-text;
+.header-info
   margin-left: auto;
   margin-right: 1.5em;
   display: flex;
@@ -42,45 +32,32 @@ $black-background: #171717;
   justify-content: center;
   flex-direction: column;
   font-weight: 100;
-
-  ul {
+  ul
     list-style-type: none;
     display: inline-block;
     align-items: left;
-    li{
+    li
       float: left;
       padding: 0 10px 0 0;
       line-height: 17px;
       border-bottom: 1px #171717 solid;
-    }
-  }
-}
-
-@media (max-width: "800px") {
-  .header .header-links {
+@media (max-width: "800px")
+  .header .header-links
     display: flex;
     flex-direction: column;
     margin-right: auto;
-
-    li {
+    li
       display: flex;
-    }
-  }
-
-  .header-info {
+  .header-info
     margin-top: 16px;
     display: flex;
     flex-direction: column;
     align-content: initial;
     justify-content: initial;
     margin-left: auto;
-    ul {
+    ul
       margin-top: 0;
-      li {
+      li
         display: flex;
         margin-left: auto;
-        padding:0;
-      }
-    }   
-  }
-}
+        padding: 0;
